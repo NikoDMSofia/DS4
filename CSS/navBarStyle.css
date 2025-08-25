@@ -13,7 +13,8 @@ nav {
     position: fixed;
     width: 100%;
     text-align: center;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
 }
 
 nav ul {
@@ -40,7 +41,7 @@ nav li:nth-child(7){
 nav a {
     font-family: 'Montserrat', sans serif;
     font-weight: 500;
-    color: white;
+    color: rgb(0, 0, 0);
     height: 100%;
     padding: 0 30px;
     text-decoration: none;
@@ -71,7 +72,9 @@ nav a:hover {
 
 
 nav img {
-    width: 50px;
+    position: absolute;
+    right: 0;
+    width: 30px;
     margin: 0 30px 0 0;
 }
 
@@ -95,7 +98,7 @@ nav #bookAconsultationBG:hover {
 
 .sidebar {
     position: fixed;
-    top: 0;
+    top: 0px;
     right: 0;
     height: 100vh;
     z-index: 9999;
@@ -115,6 +118,7 @@ nav #bookAconsultationBG:hover {
     
     width: 100%;
     margin-bottom: 1.5em;
+    margin-top: 2em;
 
 }
 .sidebar a {
@@ -126,6 +130,12 @@ nav #bookAconsultationBG:hover {
 
 .manu_button {
     display: none;
+}
+
+.sidebar img {
+    position: absolute;
+    top: 12px;
+    width: 35px;
 }
 
 
@@ -141,8 +151,7 @@ nav #bookAconsultationBG:hover {
         display: block;
     }
     .sidebar {
-    width: 50%;
-    z-index: 999;
+    width: 70%;
     }
     
     
@@ -166,7 +175,6 @@ nav {
     position: fixed;
     width: 100%;
     text-align: center;
-    padding: 1em;
 }
 }
 
