@@ -126,7 +126,7 @@
 @media (max-width: 1200px) {
     .first-page-container .firstBox-first-page-content {
     background-image: url(IMAGES/mainPage/bgFrondTop2.jpg);
-    /* background-attachment: scroll; */
+    background-attachment: scroll;
     
 }
     
