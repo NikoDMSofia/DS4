@@ -63,7 +63,8 @@
 }
 .logos-slide img  {
     height: 20em;
-    width: 20em;
+    width: 15em;
+    object-fit: cover;
 }
 
 @keyframes slide {
@@ -163,6 +164,7 @@
     display: inline-block;
     width: 14em;
     /* z-index: -1; */
+    margin-bottom: 1em;
 }
 
 /* .subtitle{
