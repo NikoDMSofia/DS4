@@ -63,10 +63,9 @@
     overflow: hidden;
     white-space: nowrap;
 }
-
-.logos:hover .logos-slide {
+/* .logos:hover .logos-slide {
     animation-play-state: paused;
-}
+} */
 .logos-slide {
     display: inline-block;
     animation: slide 20s linear infinite;
@@ -113,9 +112,6 @@
     flex:1 ;
     
 } 
- /* .first-page-container .box-bottom-container .zero h1, p, a {
-    
-} */
 
 
 
